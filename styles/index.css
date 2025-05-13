@@ -15,5 +15,12 @@
 	max-width: 1230px;
 	margin: 0 auto;
 	padding: 0 15px;
-  color: black;
+  	color: black;
+}
+
+.header__nav__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }

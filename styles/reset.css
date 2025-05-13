@@ -29,6 +29,10 @@ h6 {
 	font-weight: bold;
 }
 
+ol,ul{
+	list-style: none;
+}
+
 html,
 body {
 	height: 100%;
