@@ -2,11 +2,17 @@
 
 /* --------------------------------------------- */
 
+
+body {
+	background-color: #82AF38;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
-	& > main {
+
+	&>main {
 		flex-grow: 1;
 	}
 }
@@ -15,5 +21,23 @@
 	max-width: 1230px;
 	margin: 0 auto;
 	padding: 0 15px;
-  color: black;
+	color: black;
+}
+
+
+.header__right {
+	width: 107px;
+	height: 46px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	gap: 32px;
+
+	&img {
+		width: 32px;
+		height: 36px;
+	}
+
 }
